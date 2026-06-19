@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+ <html>
+ 
+      <head>
+	      <meta charset="UTF-8">
+		  <title>Practica 4</title>
+		  <link rel="stylesheet" href="css/menu.css">
+	</head>
+    <body>
+    <!-- codigo del menu --> 
+      <header> <!-- encabezado, parte superior de un sitio web -->
+        <nav class ="navegacion">
+            <ul class="menu"> <!--la etiqueta ul es un enlace de navegacion -->
+          <li><a href="#"> Inicio </a></li><!--la etiqueta li item declara los elementos de la lista  -->
+<!-- Aqui comienza la opcion y el submenu-->
+            <li><a href="#"> Nosotros </a>
+              <ul class="subm">
+			<li><a href="https://prepa75ms.wixsite.com/epo75">pagina</a></li>
+            <li><a href="#"> Direccion</a></li>
+          </ul>
+        </li><!-- la etiqueta a sirve para poder crear un enlace -->
+<!-- Aqui termina el submenu-->		
+		 <li><a href="#"> Servicios </a>
+                <ul class="submenu">
+                    <li><a href="https://developer.mozilla.org/es/docs/web/css/box-sizing"> Servicio 1</a></li>
+					<li><a href="#"> Servicio 2 </a></li>
+					<li><a href="#"> Servicio 3 </a></li>
+			    </ul>
+		      </li>
+			  <li><a href="#"> Contacto </a></li>
+		  </ul>
+        </nav>
+      </header>
+	  <h1 class="titulo1">Tecnología</h1>
+	  <p class="parrafo">La tecnologia es el conjunto de conocimientos, herramientas y procesos que el ser humano crea para resolver problemas y mejorar su vida diaria, Desde el celular que usamos para comunicarnos hasta los avances en medicina, eduacion y transporte, todo tiene tecnologia detras. Sin la tecnologia, el mundo como lo conocemos no funcionaria igual. No se trata solo de tener los ultimos aparatos, si no de usarlos de forma responsable para aprender, crear y resolver problemas reales. Tambien se utiliza en la vida cotidiana para tener acceso a diferentes plataformas y lineas de internet ya que cada persona tiene un objetivo diferente para su propio uso cualquier usuario puede tener acceso a la tecnologia</p>
+	  
+	  <!-- Aquí comienza las imágenes, el vídeo y el hipervinculo-->
+	  
+	<!--Contenedor de imagenes-->
+	<div class="contenedor">
+	
+	     <!--Primera imagen-->
+		 <img class="img" src="imagenes/imagen3.jpg">
+		 
+		 <!--Segunda imagen-->
+		 <img class="img" src="imagenes/imagen4.jpg">
+		 
+    </div>
+	
+	<!--Hipervinculo-->
+	<a class="hipervinculo"
+	   href="https://www.google.com/"
+	   title="El mejor lugar para encontrar mas informacion">
+	   La pagina de inicio de Google
+	</a> 
+	
+	<br><br><br>
+	
+	<!--Video-->
+	<!--<video class="video"
+	       src="video/video1.mp4"
+		   controls 
+		   poster="posterimage.jpg">
+		   
+		Lo sentimos. Este video no puede ser reproducido en tu navegador.
+	</video>-->
+	<p class="parrafo">La tecnologia facilita la comunicacion, ya que nos permite hablar con cualquier persona en el mundo al instante a traves de internet y redes sociales. Tambien mejora el aprendizaje con las plataformas digitales, videos y aplicaciones podemos estudiar desde cualquier lugar y a nuestro ritmo</p>
+    <div class="contenedor-video">
+        <h1>Mi Video</h1>
+
+        <video controls>
+            <source src="video/video1.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+
+    </div>
+	  <p class="parrafo">La tecnologia impulsa la economia y el trabajo de muchas empresas y empleos dependen de la tecnologia para producir, vender y organizarse. Por otra parte la tecnologia salva vidas, en la medicina ayuda a diagnosticar enfermedades y crear tratamientos</p>
+	  <div id="tabla"> <!-- la etiqueta div sirve para crear divisiones, crear secciones o agrupar contenido  -->
+	      <table> <!-- 	La etiqueta table sirve para crear tablas -->
+		     <thead> <!-- Contiene un bloque de filas en el encabezado -->
+		       <tr> <!-- La etiqueta tr Define una fila de la tabla -->
+			 <th>Descripcion</th><th>Mes</th><th>Costo</th><!-- La etiqueta th define una celda como encabezado-->
+			   </tr>
+		     </thead>
+		       <tr>
+		       <td>telefonos</td><td>diciembre</td><td>$ 5,000</td><!--La etiqueta td define la celda de una tabla que contiene datos-->
+		     </tr>
+		     <tr>
+		       <td>tablet</td><td>Febrero</td><td>$ 8,000</td>
+		     </tr>
+		     <tr>
+		       <td>televisores</td><td>julio</td><td>$ 20,000</td>
+		     </tr>
+		     <tr>
+		       <td> computadoras</td><td>enero</td><td> $ 15,000 </td>
+		     </tr>
+	     </table>
+	 </div>
+    </body>
+
+</html>
